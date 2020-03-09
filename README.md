@@ -10,6 +10,10 @@
 $ ./swagger-cli.sh validate testfiles/petstore.yaml
 testfiles/petstore.yaml is valid
 ```
+Or
+```bash
+$ docker run --rm -v ${PWD}:/spec swagger-cli validate testfiles/petstore.yaml
+```
 
 ## Building
 
